@@ -41,4 +41,5 @@ div {
     padding-left: 200px;
     padding-right: 200px;
     margin: 50px;
+    position: relative;
 }
