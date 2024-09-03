@@ -50,6 +50,10 @@ div {
     position: relative;
 }
 
+a {
+    display: block;
+}
+
 .gotopbtn{
     position: fixed;
     width: 50px;
