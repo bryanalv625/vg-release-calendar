@@ -50,30 +50,24 @@ div {
     position: relative;
 }
 
-#gotopbtn{
+.gotopbtn{
     position: fixed;
     width: 50px;
     height: 50px;
     background: rgb(150, 95, 212);
     bottom: 40px;
     right: 40px;
-    border-radius: 50%;
-    border: none;
-    cursor: pointer;
+
+    text-decoration: none;
     text-align: center;
     line-height: 50px;
     color: rgb(139, 212, 80);
     font-size: 22px;
-    display: none;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    pointer-events: none;
-    transition: all .4s;
 }
 
-#gotopbtn:hover {
-    background: white;
-    color: black;
+.gotopbtn:hover {
+    background: rgb(139, 212, 80);
+    color: rgb(150, 95, 212);
+    box-shadow: 0 12px 16px 0 rgba(139, 212, 80, 0.356), 0 17px 50px 0 rgba(139, 212, 80, 0.295);
 }
 
