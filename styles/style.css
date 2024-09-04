@@ -1,5 +1,5 @@
 @media only screen and (max-width: 620px) {
-    body, h1, h2, li, img, div{
+    body {
         width: 100%;
     }
 }
