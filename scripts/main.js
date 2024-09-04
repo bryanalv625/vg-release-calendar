@@ -1,11 +1,16 @@
-const toTop = document.querySelector('.gotopbtn');
+let mybutton = document.getElementById("goTopBtn");
 
-window.addEventListener('scroll', checkHeight)
+window.onscroll = function() {scrollFunction()};
 
-function checkHeight() {
-    if(window.scrollY > 100) {
-        toTop.style.display = "flex"
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
     } else {
-        toTop.style.display = "none"
+        mybutton.style.display = "none";
     }
+}
+
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
 }
