@@ -1,9 +1,3 @@
-@media only screen and (max-width: 620px) {
-    body {
-        width: 100%;
-    }
-}
-
 html{
     scroll-behavior: smooth;
 }
@@ -75,4 +69,42 @@ div {
 #goTopBtn:hover {
     background-color: rgb(139, 212, 80);
     color: rgb(150, 95, 212);
+}
+
+
+/* MOBILE*/
+@media only screen and (max-width: 430px) {
+    
+    div {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+        margin: 5px;
+        position: relative;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    img {
+        height: 200px;
+        max-width: 100%;
+    }
+
+    h2 {
+        font-size: 15px;
+    }
+
+    li {
+        margin: 3px;
+        padding-left: 10px;
+        font-size: 7px;
+    }
+
+    figcaption {
+        font-size: 7px;
+    }
+ 
 }
